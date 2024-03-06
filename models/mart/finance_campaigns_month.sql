@@ -3,7 +3,7 @@ SELECT
   SUM(operational_margin - ads_cost) AS ads_margin,
   ROUND(SUM(average_basket),2) AS average_basket,
   SUM(operational_margin) AS operational_margin,
-  SUM(ads_costs) AS ads_costs,
+  SUM(ads_cost) AS ads_cost,
   SUM(ads_impression) AS ads_impression,
   SUM(ads_clicks) AS ads_clicks,
   SUM(quantity) AS quantity,
